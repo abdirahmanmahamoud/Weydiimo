@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color: #F15D22;
+    --color1: #672D91;
+    --color2: #2D419A;
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+.header{
+    width: 100%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 30px;
+    padding-left: 5%;
+}
+.logo{
+    font-size: 28px;
+    cursor: pointer;
+    margin-left: 12px;
+}
+.logo a{
+    text-decoration: none;
+    color: var(--color);
+}
+.header .rit{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.rit .username{
+    font-size: 18px;
+    color: #000;
+    margin-right: 20px;
+}
+.rit .username .name{
+    color: var(--color2);
+}
+.rit .jbw{
+    font-size: 18px;
+    color: #000;
+    margin-right: 30px;
+}
+.body{
+    width: 60%;
+    margin: auto;
+    margin-top: 302px;
+}
+.body .title{
+    width: 100%;
+    background-color: var(--color);
+    color: #fff;
+    padding: 10px;
+    border-radius: 90px;
+    text-align: left;
+}
+.body .row{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.row .suaal-row{
+    width: 45%;
+    background-color: var(--color);
+    color: #fff;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    border-radius: 38px;
+    cursor: pointer;
+}
+.suaal-row .xaraf{
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 11px;
+}
+.suaal-row .suaal{
+    margin-left: 10px;
+}
+.suaal-row.action{
+    background-color: rgb(74, 211, 11);
+}
+.suaal-row.dijar{
+    background-color: rgb(233, 0, 0);
+}
+.suaal-row.sax{
+    background-color: #973b17;
+}
+.d-none{
+    display: none;
+}
+#login-out{
+    margin-right: 40px;
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+#login-out:hover{
+    color: var(--color1);
+}

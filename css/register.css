@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color: #F15D22;
+    --color1: #672D91;
+    --color2: #2D419A;
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+.conn{
+    width: 100%;
+    height: 100vh;
+    background-color: #cacaca;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    width: 320px;
+    background-color: #fff;
+}
+.box .header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+}
+.box #Verification{
+    padding: 10px;
+    font-size: 15px;
+}
+.error{
+    background-color: rgb(179, 10, 10);
+    color: #fff;
+    font-weight: 200;
+    font-size: 16px;
+    display: none;
+}
+.error.show{
+    display: block;
+}
+.suus{
+    background-color: rgb(5, 141, 17);
+    color: #fff;
+    font-weight: 200;
+    font-size: 16px;
+    margin: 10px 0;
+    display: none;
+}
+.suus.show{
+    display: block;
+}
+.box form{
+    padding: 10px;
+}
+.box .row{
+    margin-top: 3px;
+}
+.box .row label{
+    font-size: 16px;
+}
+.box .row input,select{
+    width: 100%;
+    margin-top: 4px;
+    height: 25px;
+}
+.box .btn{
+    margin-top: 15px;
+    width: 100%;
+    border: none;
+    color: #fff;
+    background-color: var(--color2);
+    height: 22px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: var(--color1);
+}
+.box .footer{
+    width: 100%;
+    height: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.footer a{
+    text-decoration: none;
+    color: #000;
+    
+}
